@@ -1,0 +1,122 @@
+[
+   {
+      "event_id": "3aaafb1f-c83b-4e77-9d0a-8d88f9a9fa9a",
+      "timestamp": "2021-01-14T10:18:57",
+      "domain": "account",
+      "event_type": "status-change",
+      "data":{
+        "id": 948874,
+		"old_status": "SUSPENDED",
+		"new_status": "ACTIVE",
+		"reason": "Natus nam ad minima consequatur temporibus."
+      }
+   },
+   {
+      "event_id": "93e589ca-1e7a-4b86-b2c1-79c73d16d9d8",
+      "timestamp": "2022-09-18T14:36:20",
+      "domain": "account",
+      "event_type": "status-change",
+      "data":{
+		"id": 356789,
+		"old_status": "PENDING",
+		"new_status": "ACTIVE",
+		"reason": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+   },
+{
+  "event_id": "bd6e17e4-982d-44db-b28d-3d869a309e9c",
+  "timestamp": "2023-10-02T12:45:30",
+  "domain": "account",
+  "event_type": "status-change",
+  "data": {
+    "id": 888888,
+    "old_status": "ACTIVE",
+    "new_status": "INACTIVE",
+    "reason": "Account closed upon user request."
+  }
+},
+{
+  "event_id": "27155f8c-d768-4df0-906e-6849e6509977",
+  "timestamp": "2023-12-25T09:30:25",
+  "domain": "order",
+  "event_type": "cancellation",
+  "data": {
+    "id": 333333,
+    "old_status": "PROCESSING",
+    "new_status": "CANCELLED",
+    "reason": "Item out of stock."
+  }
+},
+{
+  "event_id": "f03e8c84-7e20-4ac0-9f54-c8b9aa9927db",
+  "timestamp": "2024-01-10T15:15:10",
+  "domain": "payment",
+  "event_type": "refund",
+  "data": {
+    "id": 222222,
+    "old_status": "PENDING",
+    "new_status": "REFUNDED",
+    "reason": "Refund requested due to order cancellation."
+  }
+},
+{
+  "event_id": "99df2a68-c580-4b2e-84c7-532af9e96ad5",
+  "timestamp": "2024-02-20T08:00:55",
+  "domain": "account",
+  "event_type": "status-change",
+  "data": {
+    "id": 444444,
+    "old_status": "SUSPENDED",
+    "new_status": "ACTIVE",
+    "reason": "Account reinstated after payment clearance."
+  }
+},
+{
+  "event_id": "0a0e30f1-79b0-4f9e-a71f-71b40f8c7c2c",
+  "timestamp": "2024-06-10T08:55:30",
+  "domain": "account",
+  "event_type": "status-change",
+  "data": {
+    "id": 666666,
+    "old_status": "ACTIVE",
+    "new_status": "INACTIVE",
+    "reason": "Account dormant for more than 1 year."
+  }
+},
+{
+  "event_id": "37d07d72-e0e6-4f0b-95f2-4e42884a308d",
+  "timestamp": "2024-09-15T09:35:25",
+  "domain": "order",
+  "event_type": "cancellation",
+  "data": {
+    "id": 999999,
+    "old_status": "PROCESSING",
+    "new_status": "CANCELLED",
+    "reason": "Customer requested cancellation."
+  }
+},
+{
+  "event_id": "6a5241d7-c64b-4c7e-8ad1-72e01b6eb9c5",
+  "timestamp": "2024-10-25T12:45:50",
+  "domain": "payment",
+  "event_type": "refund",
+  "data": {
+    "id": 777333,
+    "old_status": "PENDING",
+    "new_status": "REFUNDED",
+    "reason": "Item returned and refund processed."
+  }
+},
+{
+  "event_id": "8b2a4d2c-158a-4629-9134-87c6257b6140",
+  "timestamp": "2024-12-20T09:55:30",
+  "domain": "account",
+  "event_type": "status-change",
+  "data": {
+    "id": 333111,
+    "old_status": "INACTIVE",
+    "new_status": "ACTIVE",
+    "reason": "Account reactivated after verification."
+  }
+}
+]
